@@ -1,0 +1,84 @@
+/* App.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #171515;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.container {
+  text-align: center;
+}
+/*      TITULOS         */
+
+h1, h2{
+  color: white;
+}
+
+
+/*      ESRUCTURA         */
+form {
+  margin-top: 20px;
+}
+
+
+p {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #a09a9a;
+}
+
+.Photo{
+    height: 70px;
+    width: 70px; 
+
+}
+
+/*      BOTONES         */
+
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  background-color: #9ba4a1;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #9ba4a1}
+
+button:active {
+  background-color: #9ba4a1;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+/*      FRASES         */
+
+.cargandoFrase {
+  color: #d4d7b5;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.cargandoFrase {
+  color: #d4d7b5;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.resultadoPhrase, .resultadoBroma {
+margin: 20px;
+text-align: justify;
+text-justify: inter-word;
+}
